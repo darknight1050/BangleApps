@@ -1,0 +1,71 @@
+[
+  {
+    "name": "otter",
+    "start": {
+      "hour": 13,
+      "minute": 0
+    },
+    "time": {
+      "color": 0,
+      "x": 144,
+      "y": 44,
+      "size": 22
+    },
+    "seconds": {
+      "color": 0,
+      "x": 166,
+      "y": 62,
+      "size": 14
+    },
+    "date": {
+      "color": 0,
+      "x": 88,
+      "y": 144,
+      "size": 20
+    }
+  },
+  {
+    "name": "dino",
+    "start": {
+      "hour": 6,
+      "minute": 0
+    },
+    "time": {
+      "color": 0,
+      "x": 96,
+      "y": 32,
+      "size": 22
+    },
+    "seconds": {
+      "color": 0,
+      "x": 138,
+      "y": 35,
+      "size": 14
+    },
+    "date": {
+      "color": 0,
+      "x": 88,
+      "y": 144,
+      "size": 20
+    }
+  },
+  {
+    "name": "sleep",
+    "start": {
+      "hour": 22,
+      "minute": 0
+    },
+    "time": {
+      "color": 0,
+      "x": 122,
+      "y": 15,
+      "size": 22
+    },
+    "date": {
+      "color": 0,
+      "x": 88,
+      "y": 144,
+      "size": 16
+    }
+  }
+]

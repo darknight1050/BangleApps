@@ -2,7 +2,7 @@
   "id": "lauraclock",
   "name": "Laura Clock",
   "shortName": "Laura Clock",
-  "version": "0.01",
+  "version": "0.02",
   "description": "A cute clock for my girlfriend <3",
   "icon": "app.png",
   "type": "clock",

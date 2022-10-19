@@ -6,6 +6,21 @@ var img, bgOptions, currentClock;
 
 function getImage() {
   let date = new Date();
+  let firstClock;
+  for (let i = 0; i < clocks.length; i++) {
+    let clock = clocks[i];
+    if(firstClock) {
+      if(clock.start.hour > firstClock.start.hour) {
+        firstClock = clock;
+      } else if(clock.start.hour == firstClock.start.hour) {
+        if(clock.start.minute > firstClock.start.minute) {
+          firstClock = clock;
+        }
+      }
+    } else {
+      firstClock = clock;
+    }
+  }
   let newClock;
   for (let i = 0; i < clocks.length; i++) {
     let clock = clocks[i];
@@ -25,6 +40,8 @@ function getImage() {
       }
     }
   }
+  if(newClock == undefined)
+    newClock = firstClock;
   if(currentClock != newClock) {
     currentClock = newClock;
     img = require("Storage").read("lauraclock." + currentClock.name + ".img");
